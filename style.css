@@ -130,8 +130,7 @@ button{
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-size: 3.1vw;
-    width: 45vw;
-    height:20vh;
+    width: 44vw;
     position: absolute;
     font-weight:900;
     top: 1vh;
@@ -145,8 +144,45 @@ button{
     top: 3.5vh;
     left: 55vw;
     width: 35vw;
-    height: 30vh;
     font-size: 1.3vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-} 
+}
+
+.mirror{
+    background-image: url(img/image.1.png);
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    height: 65vh;
+    position: relative;
+    bottom: 10vh;
+    right: 20vw;
+}
+
+.mirrorInfo{
+    width: 27vw;
+    height: 40vh;
+    background-color: #9767A9;
+    position: absolute;
+    top: 50vh;
+    left: 7vw;
+}
+
+.mirrorInfo h3{
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    width: 17vw;
+}
+
+.one{
+    font-size: 2.5vw;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
