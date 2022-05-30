@@ -21,6 +21,7 @@ header{
  
 .cachos{
     margin-left: 8vw;
+    
 }
     
 
@@ -82,71 +83,71 @@ button{
     display: flex;
     justify-content: space-evenly;
 }
-    
- .info{
-    background-image: url(img/img.header.png) ; 
-    background-size: cover;
-    background-position: center;
+
+.info{
     width: 100%;
-    height: 83vh;
     position: relative;
+    background-color: #9767A9;
 }
 
+.info img{
+    width: 100%;  
+}
 
 .info h1{
+    position: absolute;
+    top: 46%;
+    left: 14.5%;
     font-size: 5vw;
-    width: 26vw;
-    height: 30vh;
-    line-height: 10vh;
     font-family: 'Playfair Display', serif;
     color: #FFFFFF;
     font-weight: 800;
     opacity: 1;
-    position: absolute;
-    top: 38.8vh;
-    left: 14vw;
-}   
+    width: 26%;
+    line-height: 100%;
+   
+}
 
 .info p{
+    position: absolute;
     font-size: 2vw;
-    width: 22vw;
+    width: 25%;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     opacity: 1;
     position: absolute;
-    top: 45vh;
-    left: 59.5vw;
+    top: 54%;
+    left: 59%;
 }
 
-.infoTwo{ 
-    height: 39vh;
+.infoTwo{
+    display: flex;
     background-color: #9767A9;
-    position: relative;
+    width: 100%;
+    padding-bottom: 4%;
 }
 
 .infoTwo h2{
+    width: 44%;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
-    font-size: 3.1vw;
-    width: 44vw;
-    position: absolute;
+    font-size: 3vw;
     font-weight:900;
-    top: 1vh;
-    left: 9vw;
+    margin-top: 1%;
+    margin-left: 9%;
 }
 
 .infoTwo p{
+    width: 40%;
     color: #FFFFFF;
     opacity: 1; 
-    position:absolute;
-    top: 3.5vh;
-    left: 55vw;
-    width: 35vw;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    margin-top: 2.5%;
+    margin-right: 5.5%;
 }
 
 span{
@@ -157,294 +158,308 @@ span{
     font-weight: 800;
 }
 
-
 .mirror{
-    background-image: url(img/image.1.png);
-    background-size: cover;
-    background-position: center;
-    width: 40vw;
-    height: 65vh;
+    width: 40%;
     position: relative;
-    bottom: 10vh;
-    right: 20vw;
+    margin-bottom: 15%;
+}
+
+.mirror img{
+    width: 100%;
+   
 }
 
 .mirrorInfo{
-    width: 27vw;
-    height: 46vh;
     background-color: #9767A9;
+    width: 70%;
     position: absolute;
-    top: 50vh;
-    left: 7vw;
+    top: 74%;
+    left: 15%;
 }
 
 .mirrorInfo h3{
-    font-size: 1.5vw;
+    background-color: #9767A9;
+    width: 80%;
+    font-size: 2vw;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    width: 17vw;
-    margin-left: 1.5vw;
+    margin-left: 5%;
 }
 
-
-.mirrorInfo p{
+.mirror p{
+    background-color: #9767A9;
+    width: 90%;
     font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 24vw;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 1vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 5%;
+    
 }
 
 .girls{
-    background-image: url(img/image.2.png);
-    background-size: cover;
-    background-position: center;
-    width: 40vw;
-    height: 65vh;
+    width: 40%;
     position: relative;
-    bottom: 39vh;
-    left: 21vw;
+    margin-bottom: 15%;
+}
+
+.girls img{
+    width: 100%;   
 }
 
 .girlsInfo{
-    width: 27vw;
-    height: 40vh;
     background-color: #9767A9;
+    width: 70%;
     position: absolute;
-    top: 47vh;
-    left: 6vw;
+    top: 70%;
+    left: 13%;
 }
 
 .girlsInfo h3{
-    font-size: 1.5vw;
+    background-color: #9767A9;
+    width: 80%;
+    font-size: 2vw;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    width: 17vw;
-    margin-left: 1.5vw;
+    margin-left: 5%;
 }
 
 .girlsInfo p{
+    background-color: #9767A9;
+    width: 90%;
     font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 24vw;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 1vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 5%;
 }
 
-
 .boy{
-    background-image: url(img/image.3.png);
-    background-size: cover;
-    background-position: center;
-    width: 40vw;
-    height: 65vh;
+    width: 40%;
     position: relative;
-    bottom: 39vh;
-    right: 20vw;
+    margin-bottom: 15%;
+}
+
+.boy img{
+    width: 100%;  
 }
 
 .boyInfo{
-    width: 28vw;
-    height: 31vh;
     background-color: #9767A9;
+    width: 70%;
     position: absolute;
-    top: 46.5vh;
-    left: 6vw;
+    top: 70%;
+    left: 16%;   
 }
 
 .boyInfo h3{
-    font-size: 1.5vw;
+    background-color: #9767A9;
+    width: 80%;
+    font-size: 2vw;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    width: 13vw;
-    margin-left: 1.8vw;
+    margin-left: 5%;
 }
 
 .boyInfo p{
-    font-size: 1vw;
+    background-color: #9767A9;
+    width: 90%;
+    font-size: 1.1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 24vw;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 1vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 5%;
 }
 
 .queen{
-    background-image: url(img/image.4.png);
-    background-size: cover;
-    background-position: center;
-    width: 40vw;
-    height: 65vh;
+    width: 40%;
     position: relative;
-    bottom: 71vh;
-    left: 21vw;
+    margin-bottom: 18%;
+}
+
+.queen img{
+    width: 100%;  
 }
 
 .queenInfo{
-    width: 28vw;
-    height: 32vh;
     background-color: #9767A9;
+    width: 71.5%;
     position: absolute;
-    top: 62vh;
-    left: 6vw;
+    top: 93.5%;
+    left: 15%;   
 }
 
 .queenInfo h3{
-    font-size: 1.5vw;
+    background-color: #9767A9;
+    width: ;
+    font-size: 1.9vw;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    width: 25vw;
-    margin-left: 1.6vw;
+    margin-left: 5%;
 }
 
 .queenInfo p{
-    font-size: 1vw;
+    background-color: #9767A9;
+    width: 90%;
+    font-size: 1.1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 24vw;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 1vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 5%;
 }
 
 .family{
-    background-image: url(img/image.5.png);
-    background-size: cover;
-    background-position: center;
-    width: 40vw;
-    height: 65vh;
+    width: 40%;
     position: relative;
-    bottom: 71vh;
-    right: 20vw;
+    margin-bottom: 15%;
+}
+
+.family img{
+    width: 100%;  
 }
 
 .familyInfo{
-    width: 28vw;
-    height: 37vh;
     background-color: #9767A9;
+    width: 71.5%;
     position: absolute;
-    top: 46.5vh;
-    left: 6vw;
+    top: 70%;
+    left: 14%;   
 }
 
 .familyInfo h3{
-    font-size: 1.5vw;
+    background-color: #9767A9;
+    width: ;
+    font-size: 1.9vw;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    width: 25vw;
-    margin-left: 1.6vw;
+    margin-left: 5%;
 }
 
 .familyInfo p{
-    font-size: 1vw;
+    background-color: #9767A9;
+    width: 90%;
+    font-size: 1.1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 24vw;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 1vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 5%;
 }
 
 .hand{
-    background-image: url(img/image.6.png);
-    background-size: cover;
-    background-position: center;
-    width: 40vw;
-    height: 65vh;
+    width: 40%;
     position: relative;
-    bottom: 100vh;
-    left: 21vw;
+    margin-bottom: 15%;
+}
+
+.hand img{
+    width: 100%;  
 }
 
 .handInfo{
-    width: 28vw;
-    height: 33vh;
     background-color: #9767A9;
+    width: 71.5%;
     position: absolute;
-    top: 58vh;
-    left: 6vw;
+    top: 70%;
+    left: 14%;  
 }
 
 .handInfo h3{
-    font-size: 1.5vw;
+    background-color: #9767A9;
+    width: ;
+    font-size: 1.9vw;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    width: 25vw;
-    margin-left: 1.6vw;
+    margin-left: 5%;
 }
 
 .handInfo p{
-    font-size: 1vw;
+    background-color: #9767A9;
+    width: 90%;
+    font-size: 1.1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 22vw;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 1vh;
-    margin-left: 2vw;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 5%;
 }
 
 .lady{
-    background-image: url(img/image.7.png);
-    background-size: cover;
-    background-position: center;
-    width: 40vw;
-    height: 65vh;
+    width: 40%;
     position: relative;
-    bottom: 100vh;
-    right: 20vw;
+    margin-bottom: 15%;
+}
+
+.lady img{
+    width: 100%;  
 }
 
 .ladyInfo{
-    width: 27.5vw;
-    height: 31vh;
     background-color: #9767A9;
+    width: 72%;
     position: absolute;
-    top: 46vh;
-    left: 6.5vw;
+    top: 70%;
+    left: 14%;  
 }
 
 .ladyInfo h3{
-    font-size: 1.5vw;
+    background-color: #9767A9;
+    width: ;
+    font-size: 1.9vw;
     color: #FFFFFF;
     opacity: 1;
     font-family: 'Playfair Display', serif;
     font-weight: 800;
-    width: 25vw;
-    margin-left: 1.6vw;
+    margin-left: 5%;
 }
 
 .ladyInfo p{
-    font-size: 1vw;
+    background-color: #9767A9;
+    width: 90%;
+    font-size: 1.1vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 23vw;
     color: #FFFFFF;
     opacity: 1;
-    margin-top: 1vh;
-    margin-left: 2vw;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-bottom: 5%;
 }
 
 .blackhair{
-  position:relative;
-  bottom: 115vh;
-  left: 57vw;
-  width: 27vw;
+    width: 40%;
+    margin-bottom: 10%;
 }
+
+.blackhair img{
+    width: 100%;
+}
+
