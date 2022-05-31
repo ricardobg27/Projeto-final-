@@ -150,6 +150,14 @@ button{
     margin-right: 5.5%;
 }
 
+.sectionOne{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    flex-wrap: wrap;
+
+}
+
 span{
     font-size: 2.5vw;
     color: #FFFFFF;
@@ -161,7 +169,8 @@ span{
 .mirror{
     width: 40%;
     position: relative;
-    margin-bottom: 15%;
+    margin-top: -10vh;
+    margin-left: 10%;
 }
 
 .mirror img{
@@ -205,7 +214,8 @@ span{
 .girls{
     width: 40%;
     position: relative;
-    margin-bottom: 15%;
+    margin-top: 25vh;
+    margin-right: 8%;
 }
 
 .girls img{
@@ -247,7 +257,8 @@ span{
 .boy{
     width: 40%;
     position: relative;
-    margin-bottom: 15%;
+    margin-top: -1vh;
+    margin-left: 10%;
 }
 
 .boy img{
@@ -289,7 +300,8 @@ span{
 .queen{
     width: 40%;
     position: relative;
-    margin-bottom: 18%;
+    margin-top: 30vh;    
+    margin-right: 8%;
 }
 
 .queen img{
@@ -331,7 +343,9 @@ span{
 .family{
     width: 40%;
     position: relative;
-    margin-bottom: 15%;
+    margin-top: -1vh;
+    margin-left: 10%;
+
 }
 
 .family img{
@@ -373,7 +387,8 @@ span{
 .hand{
     width: 40%;
     position: relative;
-    margin-bottom: 15%;
+    margin-top: 35vh;
+    margin-right: 8%;
 }
 
 .hand img{
@@ -415,7 +430,8 @@ span{
 .lady{
     width: 40%;
     position: relative;
-    margin-bottom: 15%;
+    margin-bottom: 25vh;
+    margin-left: 10%;
 }
 
 .lady img{
@@ -455,11 +471,62 @@ span{
 }
 
 .blackhair{
-    width: 40%;
-    margin-bottom: 10%;
+    width: 30%;
+    margin-right: 13%; 
 }
 
 .blackhair img{
     width: 100%;
 }
 
+.sectionTwo{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    width: 86%;
+    gap: 0 -15vw;
+    
+}
+
+
+.boxOne{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+}
+
+.boxTwo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+    
+}
+
+.boxTree{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+.boxFour{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
+.boxFive{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+}
+
+.sectionTwo img{
+    width: 100%;
+}
