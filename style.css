@@ -481,52 +481,18 @@ span{
 
 .sectionTwo{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    width: 87%;  
     border: solid;
-    width: 86%;
-    gap: 0 -15vw;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
 
 .boxOne{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
- 
+    justify-content: space-between;
+    border: solid;
 }
 
-.boxTwo{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
- 
-    
-}
 
-.boxTree{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-    
-}
-
-.boxFour{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  
-}
-
-.boxFive{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-   
-}
-
-.sectionTwo img{
-    width: 100%;
-}
