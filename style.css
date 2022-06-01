@@ -494,19 +494,57 @@ span{
 }
 
 footer{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1%;
     background-color: #9767A9;
     margin-top: 3%;
+    border: solid ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 9vh;
+    align-items: center;
 }
 
-footer div{
+.footerInfo{
+    width: 54%;
+    font-size: 0.75vw;
+    color: white;
+}
+
+.direction{
+    width: 19%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.direction p{
+    font-size: 1vw;
+}
+
+.left{
+    display: flex;
+    width: 33%;    
+    align-items: center;
+}
+
+.up{
+    display: flex;
+    width: 33%;    
+    align-items: center;
+}
+
+.up p{
+    text-align: center;
     width: 60%;
-    border: solid;
 }
 
-footer figure{
-    width: 10%;
-    border: solid;
+.right{
+    display: flex;
+    width: 33%;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.right p{
+    text-align:end;
 }
