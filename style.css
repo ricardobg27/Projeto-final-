@@ -6,8 +6,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    max-width: 1930px;
-    margin: auto; 
 }
 
 header{
@@ -16,7 +14,9 @@ header{
     width: 100%;
     height: 8vh;
     align-items: center;
-    
+    position: fixed;
+    z-index: 1;
+    background-color: white;
 }    
  
 .cachos{
@@ -153,9 +153,10 @@ button{
 .sectionOne{
     display: flex;
     flex-direction: row;
-    border: solid;
     flex-wrap: wrap;
-
+    width: 86%; 
+    justify-content: space-between;
+    margin-left: 7%;
 }
 
 span{
@@ -167,10 +168,9 @@ span{
 }
 
 .mirror{
-    width: 40%;
+    width: 49.5%;
     position: relative;
     margin-top: -10vh;
-    margin-left: 10%;
 }
 
 .mirror img{
@@ -182,7 +182,7 @@ span{
     background-color: #9767A9;
     width: 70%;
     position: absolute;
-    top: 74%;
+    top: 50%;
     left: 15%;
 }
 
@@ -212,10 +212,10 @@ span{
 }
 
 .girls{
-    width: 40%;
+    width: 49.5%;
     position: relative;
     margin-top: 25vh;
-    margin-right: 8%;
+    
 }
 
 .girls img{
@@ -226,7 +226,7 @@ span{
     background-color: #9767A9;
     width: 70%;
     position: absolute;
-    top: 70%;
+    top: 71%;
     left: 13%;
 }
 
@@ -255,10 +255,9 @@ span{
 }
 
 .boy{
-    width: 40%;
+    width: 49.5%;
     position: relative;
     margin-top: -1vh;
-    margin-left: 10%;
 }
 
 .boy img{
@@ -269,8 +268,8 @@ span{
     background-color: #9767A9;
     width: 70%;
     position: absolute;
-    top: 70%;
-    left: 16%;   
+    top: 48.5%;
+    left: 15%;   
 }
 
 .boyInfo h3{
@@ -298,10 +297,9 @@ span{
 }
 
 .queen{
-    width: 40%;
+    width: 49.5%;
     position: relative;
     margin-top: 30vh;    
-    margin-right: 8%;
 }
 
 .queen img{
@@ -312,7 +310,7 @@ span{
     background-color: #9767A9;
     width: 71.5%;
     position: absolute;
-    top: 93.5%;
+    top: 94%;
     left: 15%;   
 }
 
@@ -341,10 +339,10 @@ span{
 }
 
 .family{
-    width: 40%;
+    width: 49.5%;
     position: relative;
     margin-top: -1vh;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 
 }
 
@@ -356,7 +354,7 @@ span{
     background-color: #9767A9;
     width: 71.5%;
     position: absolute;
-    top: 70%;
+    top: 46%;
     left: 14%;   
 }
 
@@ -385,10 +383,10 @@ span{
 }
 
 .hand{
-    width: 40%;
+    width: 49.5%;
     position: relative;
     margin-top: 35vh;
-    margin-right: 8%;
+    /*margin-right: 8%;*/
 }
 
 .hand img{
@@ -399,8 +397,8 @@ span{
     background-color: #9767A9;
     width: 71.5%;
     position: absolute;
-    top: 70%;
-    left: 14%;  
+    top: 88%;
+    left: 15%;  
 }
 
 .handInfo h3{
@@ -428,10 +426,10 @@ span{
 }
 
 .lady{
-    width: 40%;
+    width: 49.5%;
     position: relative;
     margin-bottom: 25vh;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 
 .lady img{
@@ -471,8 +469,9 @@ span{
 }
 
 .blackhair{
-    width: 30%;
-    margin-right: 13%; 
+   margin-top: 50vh;
+   width: 30%;
+   margin-right: 10%;
 }
 
 .blackhair img{
@@ -482,17 +481,32 @@ span{
 .sectionTwo{
     display: flex;
     flex-direction: row;
-    width: 87%;  
-    border: solid;
+    width: 86%; 
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 7%;
 }
 
 .boxOne{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-color: #9767A9;
+    margin-top: 3%;
+}
+
+footer div{
+    width: 60%;
     border: solid;
 }
 
-
+footer figure{
+    width: 10%;
+    border: solid;
+}
