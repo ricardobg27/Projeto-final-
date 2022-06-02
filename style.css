@@ -496,7 +496,6 @@ span{
 footer{
     background-color: #9767A9;
     margin-top: 3%;
-    border: solid ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -515,6 +514,7 @@ footer{
     display: flex;
     justify-content: space-between;
     color: white;
+    height: 100%;
 }
 
 .direction p{
@@ -525,17 +525,23 @@ footer{
     display: flex;
     width: 33%;    
     align-items: center;
+   
 }
 
 .up{
     display: flex;
     width: 33%;    
     align-items: center;
+    color: white;
 }
+
+
+
 
 .up p{
     text-align: center;
-    width: 60%;
+    width: 65%;
+    border:solid,
 }
 
 .right{
@@ -543,8 +549,15 @@ footer{
     width: 33%;
     flex-direction: row-reverse;
     align-items: center;
+    
 }
 
 .right p{
     text-align:end;
+}
+
+@media (max-width: 600px) {
+    
+
+    
 }
