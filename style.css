@@ -90,8 +90,12 @@ button{
     background-color: #9767A9;
 }
 
-.info img{
+.infoMaior{
     width: 100%;  
+}
+
+.infoMenor{
+    display: none;
 }
 
 .info h1{
@@ -105,7 +109,6 @@ button{
     opacity: 1;
     width: 26%;
     line-height: 100%;
-   
 }
 
 .info p{
@@ -215,7 +218,6 @@ span{
     width: 49.5%;
     position: relative;
     margin-top: 25vh;
-    
 }
 
 .girls img{
@@ -299,7 +301,7 @@ span{
 .queen{
     width: 49.5%;
     position: relative;
-    margin-top: 30vh;    
+    margin-top: 30vh;   
 }
 
 .queen img{
@@ -342,8 +344,6 @@ span{
     width: 49.5%;
     position: relative;
     margin-top: -1vh;
-    /*margin-left: 10%;*/
-
 }
 
 .family img{
@@ -386,7 +386,6 @@ span{
     width: 49.5%;
     position: relative;
     margin-top: 35vh;
-    /*margin-right: 8%;*/
 }
 
 .hand img{
@@ -429,7 +428,6 @@ span{
     width: 49.5%;
     position: relative;
     margin-bottom: 25vh;
-    /*margin-left: 10%;*/
 }
 
 .lady img{
@@ -558,6 +556,417 @@ footer{
 
 @media (max-width: 600px) {
     
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 5vh;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+    }    
+
+    .cachos img{
+       width: 60%;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    .info{
+        width: 100%;
+        position: relative;
+        background-image: url(img/imagetop.png);
+        background-size: cover;
+    }
 
     
+    .infoMaior{
+        display: none;
+    }
+
+    .infoMenor{
+       display: block;
+       width: 100%;
+    }
+
+    
+    .info h1{
+        position: absolute;
+        top: 9%;
+        left: 9%;
+        font-size: 4em;
+        font-family: 'Playfair Display', serif;
+        color: #FFFFFF;
+        font-weight: 800;
+        opacity: 1;
+        width: 60%;
+        line-height: 1.2em;
+    }
+
+    .info p{
+        position: absolute;
+        font-size: 1.5em;
+        width: 65%;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        opacity: 1;
+        position: absolute;
+        top: 46%;
+        left: 9%;
+    }
+  
+    .infoTwo{
+    display: flex;
+    flex-direction: column;
+    background-color: #9767A9;
+    width: 100%;
+    padding: 1%;
+    align-items: center;
+    
+    }
+  
+    .infoTwo h2{
+    width: 72%;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight:900;
+    margin:5%;
+    }
+
+    .infoTwo p{
+    width: 72%;
+    color: #FFFFFF;
+    opacity: 1; 
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin:5%;
+    }
+
+    .sectionOne{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%; 
+    align-content: center;
+    justify-content: none;
+    margin:0;
+    height: 100%;
+    }
+    
+    span{
+        font-size: 1.5em;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+    }
+    
+    .mirror{
+    width: 80%;
+    position: relative;
+    margin-top: 1vh;
+    }
+
+
+
+    .mirrorInfo{
+    background-color: #9767A9; 
+    position: absolute;
+    top: 53%;
+    left: 15%;
+    width: 96vw;
+    height: 53vh;
+    left: -10vw; 
+    }
+
+    .mirrorInfo h3{
+    background-color: #9767A9;
+    width: 55%;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    margin-left: 10%;
+    margin-top: 0;
+    }
+
+    .mirror p{
+    background-color: #9767A9;
+    width: 80%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding-bottom: 5%;
+    }
+
+    .girls{
+    width: 80%;
+    position: relative;
+    margin-top:40vh;
+    }
+
+
+    .girlsInfo{
+    background-color: #9767A9;
+    position: absolute;
+    top: 84%;
+    height: 46vh;
+    left: 13%;
+    width: 96vw;
+    left: -10vw; 
+    }
+
+    .girlsInfo h3{
+    background-color: #9767A9;
+    width: 80%;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    margin-left: 10%;
+    }
+
+    .girlsInfo p{
+    background-color: #9767A9;
+    width: 80%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding-bottom: 5%;
+    }
+
+    .boy{
+    width: 80%;
+    position: relative;
+    margin-top: 43vh;
+    }
+
+    .boyInfo{
+    background-color: #9767A9;
+    position: absolute;
+    top: 77%;
+    height: 33vh;
+    left: 15%;   
+    width: 96vw;
+    left: -10vw; 
+    }
+
+    .boyInfo h3{
+    background-color: #9767A9;
+    width: 45%;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    margin-left: 10%;
+    }
+
+    .boyInfo p{
+    background-color: #9767A9;
+    width: 80%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding-bottom: 5%;
+    }
+    
+    .queen{
+    width: 80%;
+    position: relative;
+    margin-top: 28vh;   
+    }
+
+    .queenInfo{
+    background-color: #9767A9;
+    position: absolute;
+    top: 94%;
+    height: 30vh;
+    left: 15%;   
+    width: 96vw;
+    left: -10vw; 
+    }
+
+    .queenInfo h3{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+        margin-left: 10%;
+    }
+    
+    .queenInfo p{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left: 10%;
+        margin-top: 1%;
+        padding-bottom: 5%;
+    }
+
+    .family{
+    width: 80%;
+    position: relative;
+    margin-top: 30vh;
+    }
+
+    .familyInfo{
+    background-color: #9767A9;
+    position: absolute;
+    top: 68%;
+    height: 40vh;
+    left: 14%;  
+    width: 96vw;
+    left: -10vw;  
+    }
+    .familyInfo h3{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+        margin-left: 10%;
+    }
+    
+    .familyInfo p{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left: 10%;
+        margin-top: 0;
+        padding-bottom: 5%;
+    }
+    
+    .hand{
+    width: 80%;
+    position: relative;
+    margin-top:32vh;
+    }
+
+    .handInfo{
+    background-color: #9767A9;
+    width: 96vw;
+    height: 31vh;
+    left: -10vw; 
+    position: absolute;
+    top: 88%;
+    }
+
+    .handInfo h3{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+        margin-left: 10%;
+    }
+    
+    .handInfo p{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left: 10%;
+        margin-top: 0;
+        padding-bottom: 5%;
+    }
+    
+    .lady{
+    width: 80%;
+    position: relative;
+    margin-top:30vh;
+   
+    }
+
+    .ladyInfo{
+    background-color: #9767A9;
+    width: 96vw;
+    height: 27vh;
+    position: absolute;
+    top: 82%;
+    left: -10vw;  
+    }
+
+    .ladyInfo h3{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+        margin-left: 10%;
+    }
+    
+    .ladyInfo p{
+        background-color: #9767A9;
+        width: 80%;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-left: 10%;
+        margin-top: 0;
+        padding-bottom: 5%;  
+    }
+    
+
+    .blackhair{
+    width: 40%;
+    margin: 0;
+    margin-left: 20vw;
+    }
+ 
+    .blackhair img{
+     width: 100%;
+    }
+ 
+
 }
+    
+
+
