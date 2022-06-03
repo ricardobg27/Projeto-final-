@@ -491,6 +491,12 @@ span{
     justify-content: space-between;
 }
 
+.sectionTwoResponsive{
+    display: none;
+    position: relative;
+}
+ 
+
 footer{
     background-color: #9767A9;
     margin-top: 3%;
@@ -964,8 +970,80 @@ footer{
     .blackhair img{
      width: 100%;
     }
- 
+    
+    .sectionTwo{
+        display: none;
+    }
 
+    .sectionTwoResponsive{
+        display: block;
+        position: relative;
+        margin-top: 4vh;
+        height: 70vh;
+    }   
+
+    .sectionTwoResponsiveOne{
+        position: absolute;
+        left: 17vw;
+    }
+     
+    .sectionTwoResponsiveTwo{
+        position: absolute;
+        left: 48vw;
+    }
+  
+    .sectionTwoResponsiveThree{
+        position: absolute;
+        left: 63.5vw;
+    }
+    
+    .sectionTwoResponsiveFour{
+        position: absolute;
+        top: 9vh;
+        left: 48vw;
+        
+    }
+    .sectionTwoResponsiveFive{
+        position: absolute;
+        top: 25vh;
+        left: 17vw;
+    }
+    
+    .sectionTwoResponsiveSeis{
+        position: absolute;
+        bottom: 9vh;
+        left: 17vw;
+        
+    }
+    
+    .sectionTwoResponsiveSeven{
+        
+        position: absolute;
+        top: 45vh;
+        left: 32vw;
+    }
+    
+    .sectionTwoResponsiveOito{
+        
+        position: absolute;
+        top: 61.5vh;
+        left: 17vw;
+    }
+    
+    .sectionTwoResponsiveNova{
+        
+        position: absolute;
+        top: 61.5vh;
+        left: 32vw;
+    }
+    
+    .sectionTwoResponsiveDez{
+        position: absolute;
+        top:45vh;
+        left: 48vw;
+    
+    }  
+    
 }
     
 
