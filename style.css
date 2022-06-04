@@ -18,7 +18,13 @@ header{
     z-index: 1;
     background-color: white;
 }    
- 
+
+
+.menu img{
+    display: none;
+}
+
+
 .cachos{
     margin-left: 8vw;
     
@@ -513,6 +519,14 @@ footer{
     color: white;
 }
 
+.footerInfoResponsive{
+    display: none;
+}
+
+.logoResponsive{
+    display: none;
+}
+
 .direction{
     width: 19%;
     display: flex;
@@ -564,17 +578,31 @@ footer{
     
     header{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
-        height: 5vh;
+        height: 6vh;
         align-items: center;
         position: fixed;
         z-index: 1;
         background-color: white;
     }    
 
+
+    .menuResponsive{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+   
+    .menu img{
+        display: block;
+        height: 6vh;
+        
+    }
+
     .cachos img{
-       width: 60%;
+          margin-right: 35vw;
     }
 
     nav{
@@ -590,6 +618,7 @@ footer{
         position: relative;
         background-image: url(img/imagetop.png);
         background-size: cover;
+        top:2vh;
     }
 
     
@@ -1011,7 +1040,7 @@ footer{
     
     .sectionTwoResponsiveSeis{
         position: absolute;
-        bottom: 9vh;
+        bottom: 9.9vh;
         left: 17vw;
         
     }
@@ -1044,7 +1073,86 @@ footer{
     
     }  
     
-}
+    footer{
+        background-color: ;
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: baseline;
+        height: 19vh;
+        align-items: center;
+        background-color: white;
+    }
     
+    .logoResponsive{
+        display: block;
+        border: solid;
+    }
 
+    .footerInfo{
+        width: 67%;
+        font-size: 0.5em;
+        color: black;
+       
+
+    }
+
+   .footerInfoResponsive{
+       display: block;
+       font-size: 1.2em;
+    }
+    
+    .direction{
+        width: 19%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        width: 68%;
+        height: auto;
+    }
+    
+    .direction p{
+        font-size: 0;
+        display: none;
+    }
+    
+    .left{
+        display: flex;
+        width: auto;  
+        height: 35px;  
+        align-items: none;
+        border-radius: 100%;
+        background-color: #9767A9;
+        margin-left: 10vw;
+        margin-top: 0.5vh;
+    }
+    
+    .up{
+        display: flex;
+        width: auto;  
+        height: 35px;  
+        align-items: none;
+        border-radius: 100%;
+        color: white;
+        background-color: #9767A9;
+        margin-top: 0.5vh;
+    }
+    
+    .right{
+        display: flex;
+        width: auto; 
+        height: 35px;  
+        align-items: none;
+        border-radius: 100%;
+        flex-direction: row;
+        background-color: #9767A9;
+        margin-top: 0.5vh;
+    }
+    
+    .right p{
+        text-align:end;
+    }
+
+    
+}
 
